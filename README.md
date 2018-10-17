@@ -1,2 +1,2 @@
-#Shoppinglist
-##A place where you can write down your products you want to buy
+Shoppinglist
+A place where you can write down your products you want to buy
