@@ -27,7 +27,7 @@ import {
             <div>
             <Navbar color="success" dark expand="sm" className="mb-5">
                 <Container>
-                    <NavbarBrand href="/">ShoppingList</NavbarBrand>
+                    <NavbarBrand href="/">AMAL- <i>Client management system</i></NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
