@@ -14,11 +14,11 @@ const db = require('./config/keys.js').mongoURI;
 
 // Connect Mongo
 mongoose
-    .connect(db)
+    .connect(db, { useNewUrlParser: true })
     .then(() => console.log('MongoDB is connected'))
     .catch(err => console.log(err));
 
-    // Use routes
+// Use routes
 app.use('/api/items', items);
 
 const port = process.env.PORT || 5000;
